@@ -58,7 +58,7 @@ Crime Activity Intelligence is a final-year Android-based project developed to i
 
 ### 📱 Android App Screens
 
-| Login Screen | Report Crime | Case Status | Admin Dashboard |
+| Admin Dashboard | User Dashboard | Case Status and map | Report Crime |
 |--------------|--------------|-------------|------------------|
 | ![Login](https://github.com/Tejas-Chaudharigithub25/Crime-Activity-Intelligence/raw/main/Snapshots/1.png) | ![Report](https://github.com/Tejas-Chaudharigithub25/Crime-Activity-Intelligence/raw/main/Snapshots/2.png) | ![Status](https://github.com/Tejas-Chaudharigithub25/Crime-Activity-Intelligence/raw/main/Snapshots/3.png) | ![Admin Dashboard](https://github.com/Tejas-Chaudharigithub25/Crime-Activity-Intelligence/raw/main/Snapshots/4.png) |
 

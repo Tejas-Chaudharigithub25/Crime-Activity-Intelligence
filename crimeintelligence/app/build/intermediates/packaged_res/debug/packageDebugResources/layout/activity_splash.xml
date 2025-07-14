@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".splashActivity">
+
+    <ImageView
+        android:id="@+id/splashicon"
+        android:layout_width="133dp"
+        android:layout_height="125dp"
+        android:layout_x="121dp"
+        android:layout_y="229dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/splashtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="380dp"
+        android:textColor="@color/black"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+</AbsoluteLayout>

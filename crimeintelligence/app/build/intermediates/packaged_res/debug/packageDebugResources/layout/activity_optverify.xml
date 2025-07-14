@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    tools:context=".splashActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="@color/Sunnyyellow100"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/otpverify" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+
+        <!-- Title for the Registration Form -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="OTP VERIFICATION"
+            android:textColor="#333"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your one-time password (OTP) has been successfully sent to your email. Please check your messages."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Mobile Number Input Field -->
+        <EditText
+            android:id="@+id/editTextotp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Enter OTP"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="12dp" />
+
+
+        <!-- Registration Button -->
+        <Button
+            android:id="@+id/buttonverify"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Sunnyyellow100"
+            android:text="Verify"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+</LinearLayout>

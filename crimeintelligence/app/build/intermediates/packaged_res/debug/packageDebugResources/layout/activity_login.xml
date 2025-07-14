@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    tools:context=".splashActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="@color/Sunnyyellow100"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+
+        <!-- Title for the Registration Form -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="LOGIN IN"
+            android:textColor="#333"
+            android:textSize="24sp" />
+
+        <!-- Mobile Number Input Field -->
+        <EditText
+            android:id="@+id/editTextMobilelogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Enter Email"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <!-- Password Input Field -->
+        <EditText
+            android:id="@+id/editTextPasswordlogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <!-- Registration Button -->
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Sunnyyellow100"
+            android:text="Login"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/newaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Create New  Account"
+            android:textColor="#003CFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".crimereportActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/app_name"
+                android:textColor="@color/Sunnyyellow100"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Report Crime"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="*Note : Provide accurate details of the incident, including date, time, and location.
+Include a description of the crime and any known suspects."
+                android:textAlignment="center"
+                android:textColor="#FF1010"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Details of the Crime"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editTexttypeofcrime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Type of Crime (e.g., theft, assault)"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:paddingHorizontal="8dp" />
+
+            <EditText
+                android:id="@+id/editTextdatetime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Date and Time of the Incident"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:paddingHorizontal="8dp" />
+
+            <TextView
+                android:id="@+id/getcrimelocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="👉 Location of the Incident"
+                android:textAlignment="center"
+                android:textColor="#0017FF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextdescofcrime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Description of the Incident"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:layout_marginVertical="10dp"
+                android:paddingHorizontal="8dp" />
+
+<!--            //Victim Information-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Victim Information"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editTextvictimname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:paddingHorizontal="8dp" />
+
+            <EditText
+                android:id="@+id/editTextvictimaddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Address"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:paddingHorizontal="8dp" />
+
+
+            <EditText
+                android:id="@+id/editTextvictimcontact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Contact Number"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:layout_marginVertical="10dp"
+                android:paddingHorizontal="8dp" />
+
+            <!--            //Evidence Submitted-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Evidence Submitted"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/noimg"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/eviview" />
+
+            <Button
+                android:id="@+id/btnrviden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Evidence" />
+            <Button
+                android:id="@+id/formsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Sunnyyellow67"
+                android:text="Submit" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

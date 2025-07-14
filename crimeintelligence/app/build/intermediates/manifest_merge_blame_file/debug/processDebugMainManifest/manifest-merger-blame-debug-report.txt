@@ -1,0 +1,353 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.crimeactivityintelligence"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:5-80
+14-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:9:22-77
+15    <uses-permission
+15-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:10:5-12:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:11:9-65
+17        android:maxSdkVersion="28" />
+17-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:12:9-35
+18
+19    <queries>
+19-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:14:5-36:15
+20
+21        <!-- Gallery -->
+22        <intent>
+22-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:17:9-23:18
+23            <action android:name="android.intent.action.GET_CONTENT" />
+23-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:13-72
+23-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:18:21-69
+24
+25            <category android:name="android.intent.category.OPENABLE" />
+25-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:13-73
+25-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:20:23-70
+26
+27            <data android:mimeType="image/*" />
+27-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:13-48
+27-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:19-45
+28        </intent>
+29        <intent>
+29-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:24:9-28:18
+30            <action android:name="android.intent.action.PICK" />
+30-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:13-65
+30-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:25:21-62
+31
+32            <data android:mimeType="image/*" />
+32-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:13-48
+32-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:22:19-45
+33        </intent>
+34        <intent>
+34-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:29:9-31:18
+35            <action android:name="android.intent.action.CHOOSER" />
+35-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:13-68
+35-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:30:21-65
+36        </intent>
+37        <!-- Camera -->
+38        <intent>
+38-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:33:9-35:18
+39            <action android:name="android.media.action.IMAGE_CAPTURE" />
+39-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:13-73
+39-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:34:21-70
+40        </intent>
+41        <!-- Needs to be explicitly declared on Android R+ -->
+42        <package android:name="com.google.android.apps.maps" />
+42-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+42-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+43    </queries> <!-- Include required permissions for Google Maps API to run. -->
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+45
+46    <uses-feature
+46-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+47        android:glEsVersion="0x00020000"
+47-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+48        android:required="true" />
+48-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+49
+50    <permission
+50-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+51        android:name="com.example.crimeactivityintelligence.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.example.crimeactivityintelligence.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:9:5-83:19
+57        android:allowBackup="true"
+57-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:10:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.9.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\10b61ba30fd1835276d8ad902e93f602\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+59        android:dataExtractionRules="@xml/data_extraction_rules"
+59-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:12:9-65
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:fullBackupContent="@xml/backup_rules"
+62-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:13:9-54
+63        android:icon="@mipmap/ic_launcher"
+63-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:14:9-43
+64        android:label="@string/app_name"
+64-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:15:9-41
+65        android:networkSecurityConfig="@xml/network_security_config"
+65-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:11:9-69
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:16:9-54
+67        android:supportsRtl="true"
+67-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:17:9-35
+68        android:testOnly="true"
+69        android:theme="@style/Theme.CrimeReporter" >
+69-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:18:9-51
+70        <activity
+70-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:20:9-22:40
+71            android:name="com.example.crimeactivityintelligence.viewcrimeActivity"
+71-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:21:13-46
+72            android:exported="false" />
+72-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:22:13-37
+73        <activity
+73-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:23:9-25:40
+74            android:name="com.example.crimeactivityintelligence.viewallcrimeActivity"
+74-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:24:13-49
+75            android:exported="false" />
+75-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:25:13-37
+76        <activity
+76-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:26:9-28:40
+77            android:name="com.example.crimeactivityintelligence.viewProfileActivity"
+77-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:27:13-48
+78            android:exported="false" />
+78-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:28:13-37
+79        <activity
+79-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:29:9-31:40
+80            android:name="com.example.crimeactivityintelligence.crimereportActivity"
+80-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:30:13-48
+81            android:exported="false" />
+81-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:31:13-37
+82        <activity
+82-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:32:9-34:40
+83            android:name="com.example.crimeactivityintelligence.updateProfileActivity"
+83-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:33:13-50
+84            android:exported="false" />
+84-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:34:13-37
+85        <activity
+85-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:35:9-37:40
+86            android:name="com.example.crimeactivityintelligence.profileActivity"
+86-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:36:13-44
+87            android:exported="false" />
+87-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:37:13-37
+88        <activity
+88-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:38:9-40:40
+89            android:name="com.example.crimeactivityintelligence.homeActivity"
+89-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:39:13-41
+90            android:exported="false" />
+90-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:40:13-37
+91        <activity
+91-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:41:9-43:40
+92            android:name="com.example.crimeactivityintelligence.optverifyActivity"
+92-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:42:13-46
+93            android:exported="false" />
+93-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:43:13-37
+94        <activity
+94-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:44:9-46:40
+95            android:name="com.example.crimeactivityintelligence.loginActivity"
+95-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:45:13-42
+96            android:exported="false" />
+96-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:46:13-37
+97        <activity
+97-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:47:9-49:40
+98            android:name="com.example.crimeactivityintelligence.signupActivity"
+98-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:48:13-43
+99            android:exported="false" />
+99-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:49:13-37
+100        <activity
+100-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:50:9-58:20
+101            android:name="com.example.crimeactivityintelligence.splashActivity"
+101-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:51:13-43
+102            android:exported="true" >
+102-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:52:13-36
+103            <intent-filter>
+103-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:53:13-57:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:54:17-69
+104-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:54:25-66
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:56:17-77
+106-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:56:27-74
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:59:9-61:40
+110            android:name="com.example.crimeactivityintelligence.LocationPickerActivity"
+110-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:60:13-51
+111            android:exported="false" />
+111-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:61:13-37
+112        <!--
+113             TODO: Before you run your application, you need a Google Maps API key.
+114
+115             To get one, follow the directions here:
+116
+117                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+118
+119             Once you have your API key (it starts with "AIza"), define a new property in your
+120             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+121             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+122        -->
+123        <meta-data
+123-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:73:9-75:71
+124            android:name="com.google.android.geo.API_KEY"
+124-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:74:13-58
+125            android:value="AIzaSyDWsA5TZYwjkRRZHbLKUhCVbrjRnrxf7Ho" />
+125-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:75:13-68
+126        <meta-data
+126-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:76:9-78:69
+127            android:name="com.google.android.gms.version"
+127-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:77:13-58
+128            android:value="@integer/google_play_services_version" />
+128-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:78:13-66
+129
+130        <activity
+130-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:80:9-82:49
+131            android:name="com.example.crimeactivityintelligence.MainActivity"
+131-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:81:13-41
+132            android:exported="false" />
+132-->D:\CAI\crimeintelligence\app\src\main\AndroidManifest.xml:82:13-37
+133        <activity
+133-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:39:9-42:68
+134            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
+134-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:40:13-78
+135            android:screenOrientation="unspecified"
+135-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:41:13-52
+136            android:theme="@style/Theme.Transparent.ImagePicker" />
+136-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:42:13-65
+137        <activity
+137-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:43:9-46:72
+138            android:name="com.yalantis.ucrop.UCropActivity"
+138-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:44:13-60
+139            android:screenOrientation="portrait"
+139-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:45:13-49
+140            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+140-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:46:13-69
+141
+142        <provider
+142-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:48:9-56:20
+143            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
+143-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:49:13-82
+144            android:authorities="com.example.crimeactivityintelligence.imagepicker.provider"
+144-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:50:13-72
+145            android:exported="false"
+145-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:51:13-37
+146            android:grantUriPermissions="true" >
+146-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:52:13-47
+147            <meta-data
+147-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:53:13-55:71
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:54:17-67
+149                android:resource="@xml/image_picker_provider_paths" />
+149-->[com.github.Drjacky:ImagePicker:2.3.22] C:\Users\tejas\.gradle\caches\8.10.2\transforms\dcb342a6187d4fcc97f12f028e9c36b6\transformed\ImagePicker-2.3.22\AndroidManifest.xml:55:17-68
+150        </provider> <!-- Needs to be explicitly declared on P+ -->
+151        <uses-library
+151-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+152            android:name="org.apache.http.legacy"
+152-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+153            android:required="false" />
+153-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ba1075c6480a8ae777d2f475c87f1439\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+154
+155        <activity
+155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ffa557822aab000e6ffa8fd7a28ddbf9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ffa557822aab000e6ffa8fd7a28ddbf9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ffa557822aab000e6ffa8fd7a28ddbf9\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\ffa557822aab000e6ffa8fd7a28ddbf9\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+162            android:authorities="com.example.crimeactivityintelligence.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\006aa4a53dbdd16e802667ed7287906f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\c6e13d937fdd75520dae1f124e26f0e3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\c6e13d937fdd75520dae1f124e26f0e3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\tejas\.gradle\caches\8.10.2\transforms\c6e13d937fdd75520dae1f124e26f0e3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+172                android:value="androidx.startup" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+173        </provider>
+174
+175        <receiver
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+176            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+177            android:directBootAware="false"
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+178            android:enabled="true"
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+179            android:exported="true"
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+180            android:permission="android.permission.DUMP" >
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+182                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+185                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+186            </intent-filter>
+187            <intent-filter>
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+188                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+189            </intent-filter>
+190            <intent-filter>
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+191                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\tejas\.gradle\caches\8.10.2\transforms\f8c908d36851ba0a67c1da2b28431af1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+192            </intent-filter>
+193        </receiver>
+194    </application>
+195
+196</manifest>

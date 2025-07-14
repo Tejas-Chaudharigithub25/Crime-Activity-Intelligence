@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Sunnyyellow100">#274412</color>
+    <color name="Sunnyyellow17">#aee688</color>
+    <color name="Sunnyyellow33">#72ca36</color>
+    <color name="Sunnyyellow50">#5da62c</color>
+    <color name="Sunnyyellow67">#4a8423</color>
+    <color name="Sunnyyellow83">#38631b</color>
+    <color name="background">#f3e453</color>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#CCFFA1</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Crime Activity Intelligence</string>
+    <style name="Base.Theme.CrimeReporter" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CrimeReporter" parent="Base.Theme.CrimeReporter"/>
+</resources>

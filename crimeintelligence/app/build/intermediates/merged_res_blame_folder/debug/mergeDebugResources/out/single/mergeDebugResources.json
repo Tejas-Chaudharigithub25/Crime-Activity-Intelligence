@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_suspect.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\suspect.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_investigation.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\investigation.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_home_recfent_crime_card.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\home_recfent_crime_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_otpverify.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\otpverify.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_noimg.jpg.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\noimg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_optverify.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_optverify.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_location_picker.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_location_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_login.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\login.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_crime_card.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\crime_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_signup.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\signup.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_viewallcrime.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_viewallcrime.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_viewcrime.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_viewcrime.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_crimereport.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_crimereport.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "com.example.crimeactivityintelligence.app-debug-42:/xml_network_security_config.xml.flat",
+        "source": "com.example.crimeactivityintelligence.app-main-44:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_splash.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_view_profile.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_view_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\drawable_man.png.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\drawable\\man.png"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\anim_splashani.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\anim\\splashani.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-debug-42:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\tejas\\.gradle\\daemon\\8.10.2\\com.example.crimeactivityintelligence.app-main-44:\\layout\\activity_profile.xml"
+    }
+]
